@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS snippets
+  </title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+
+  <select name="" id="year-select"></select>
+  <p>&nbsp;</p>  
+
+  <select name="" id="manufacturers"></select>
+  <p>&nbsp;</p>  
+
+  <select name="" id="acuras-select"></select>
+  <p>&nbsp;</p>  
+
+
+  <button id="reset">Reset</button>
+
+
+  <script src="js/fsFramework-min.js"></script>
+
+  <script src="js/el-selects/year/year-select.js"></script>
+  <script src="js/el-selects/make/manufacturer-select.js"></script>
+
+  <!-- <script src="js/run.js"></script> -->
+
+  <!-- <script src="js/acura/acuras-current.js"></script> -->
+  <script src="js/acura/acuras-select.js"></script>
+
+
+  <script>
+    var reset = ID("reset");
+    function resetAll(){
+      location.reload(); 
+    }
+
+    reset.addEventListener("click", resetAll);
+  </script>
+
+
+  
+</body>
+</html>
